@@ -1,0 +1,60 @@
+{
+  "name": "ng-metadata-failtest",
+  "version": "1.0.0",
+  "description": "Minimal repo to reproduce failing basic test",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "karma start ./karma.config.js --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaSchTour/ng-metadata-failtest.git"
+  },
+  "author": "daniel.schuba@daschmedia.de",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DaSchTour/ng-metadata-failtest/issues"
+  },
+  "homepage": "https://github.com/DaSchTour/ng-metadata-failtest#readme",
+  "devDependencies": {
+    "@types/angular": "^1.5.22",
+    "@types/angular-mocks": "^1.5.8",
+    "@types/core-js": "^0.9.35",
+    "@types/jasmine": "^2.5.38",
+    "@types/jquery": "^2.0.34",
+    "jasmine-core": "^2.5.2",
+    "jspm": "^0.16.48",
+    "karma": "^1.3.0",
+    "karma-cli": "^1.0.1",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-jspm": "^2.2.0",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "karma-remap-istanbul": "^0.3.2",
+    "karma-spec-reporter": "0.0.26",
+    "systemjs": "^0.19.41",
+    "typescript": "^2.1.4"
+  },
+  "jspm": {
+    "configFile": "systemjs.config.js",
+    "dependencies": {
+      "angular": "npm:angular@^1.6.0",
+      "core-js": "npm:core-js@^2.2.1",
+      "jquery": "npm:jquery@2.2.4",
+      "ng-metadata": "npm:ng-metadata@^3.0.3",
+      "reflect-metadata": "npm:reflect-metadata@^0.1.8",
+      "rxjs": "npm:rxjs@5.0.0-rc.1"
+    },
+    "devDependencies": {
+      "angular-mocks": "npm:angular-mocks@~1.6.0"
+    }
+  },
+  "dependencies": {
+    "angular": "^1.6.0",
+    "core-js": "^2.4.1",
+    "ng-metadata": "^3.0.3",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "^5.0.0-rc.1"
+  }
+}
